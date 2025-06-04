@@ -43,4 +43,3 @@ Este projeto contém um servidor e um cliente UDP para operações matemáticas 
 
 - O cliente requer o Tkinter para a interface gráfica.
 - Os arquivos `.txt` usados pelo cliente devem conter um número de ponto flutuante por linha.
-- O servidor escuta por padrão em `127.0.0.1:2022`.
