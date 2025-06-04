@@ -1,0 +1,13 @@
+# requirements.txt
+
+# Apenas bibliotecas padrão do Python são necessárias para este projeto.:
+# - socket
+# - struct
+# - os
+# - tkinter
+
+# Na maioria dos sistemas, o tkinter já vem incluído com o Python, mas em algumas distribuições Linux
+# pode ser necessário instalá-lo separadamente. Por exemplo:
+# sudo apt-get install python3-tk
+
+# Este projeto não requer pacotes de terceiros.
