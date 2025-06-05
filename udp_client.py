@@ -6,8 +6,7 @@ import os
 
 def read_doubles_from_file(filepath):
     with open(filepath, 'rb') as f:
-        content = f.read(1024)  # 1KiB
-    # decode and split lines
+        content = f.read(1024)
     try:
         lines = content.decode('utf-8').splitlines()
     except UnicodeDecodeError:
@@ -74,7 +73,6 @@ class UDPClientGUI:
         try:
             sock.settimeout(2)
             sock.sendto(data, (ip, 2022))
-            # Calculate expected response size
             expected = 0
             if flags[0]: expected += 1
             if flags[1]: expected += 1
